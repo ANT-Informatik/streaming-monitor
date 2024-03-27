@@ -1,0 +1,19 @@
+minimum_cumulusci_version: '3.84.1'
+project:
+    name: streaming-monitor
+    package:
+        name: streaming-monitor
+        api_version: '60.0'
+    git:
+        repo_url: https://github.com/ANT-Informatik/streaming-monitor
+        default_branch: 'main'
+    source_format: sfdx
+
+plans:
+    install:
+        slug: install_streaming_monitor
+        title: Installation Streaming Monitor
+        tier: primary
+        steps:
+            1:
+                flow: deploy_unmanaged
