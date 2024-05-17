@@ -15,3 +15,18 @@ coverage
 **/__MACOSX
 
 /sampleData.js
+
+#### ANT ####
+
+# CCI
+.cci
+/src.orig
+/src
+
+# Editors
+*.sublime-project
+*.sublime-workspace
+.vscode
+.idea
+.project
+.settings
